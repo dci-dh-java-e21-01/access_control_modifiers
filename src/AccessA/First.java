@@ -1,8 +1,11 @@
 package AccessA;
 
 public class First {
-    // default, public, private, protected
+    // default, private, protected, public
 
-
-        protected int age = 32;
+      protected int age = 32;
+    
+      protected int getAge(){
+                return age;
+        }
 }
